@@ -1,9 +1,15 @@
 import React from 'react'
+import MovieCard from './MovieCard'
 
 function Movies() {
   return (
-    <div>
-        <h1>this is a movie component</h1>
+    <div className='p-5'>
+        <div className='text-2xl m-5 font-bold text-center'>
+          Trending movies
+        </div>
+        <div>
+          <MovieCard />
+        </div>
     </div>
   )
 }
