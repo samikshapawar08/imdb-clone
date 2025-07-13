@@ -7,8 +7,13 @@ function Movies() {
         <div className='text-2xl m-5 font-bold text-center'>
           Trending movies
         </div>
-        <div>
+        <div className='dlex flex-row flex-wrap justify-around'>
+          
           <MovieCard />
+          <MovieCard />
+          <MovieCard />
+          <MovieCard />
+
         </div>
     </div>
   )
